@@ -1,12 +1,12 @@
 body {
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
-
 
 .home {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-image: url('/public/coming-soon.gif');
   background-size: 100% auto;
   background-position: center top;

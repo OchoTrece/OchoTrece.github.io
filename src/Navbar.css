@@ -5,7 +5,8 @@ nav {
     font-family: Courier, sans-serif;
     font-weight: 500;
     display: flex;
-
+    position: relative;
+    z-index: 2;
 }
 
 
@@ -65,5 +66,4 @@ li:first-child {
     width: auto;
     height: 25px;
     object-fit: cover;
-
 }
